@@ -11,6 +11,12 @@ body {
 }
 
 
+a  {
+      text-decoration: none;
+      color: #BBB;
+}
+
+
 
 
 .content-wrap {
@@ -32,7 +38,7 @@ body {
 .logo h1 {
       margin: 0;
       font-size: 1.8rem;
-      color: #DA552F;
+      color: #1776F5;
       line-height: 40px;
 }
 .logo:before {
@@ -45,7 +51,7 @@ body {
       text-align: center;
       content: 'P';
       color: white;
-      background: #DA552F;
+      background:#1776F5;
       -webkit-border-radius: 50%;
       border-radius: 50%;
 
@@ -62,7 +68,7 @@ body {
       line-height: 40px;
 }
 .login:hover {
-      color: #DA552F;
+      color: #1776F5;
 }
 .add-new-post {
       margin-top: 5px;
@@ -74,10 +80,10 @@ body {
       line-height: 30px;
       text-align: center;
       color: white;
-      background: #DA552F;
+      background: #1776F5;
       -webkit-border-radius: 50%;
       border-radius: 50%;
-      text-decoration: none;r
+      text-decoration: none;
 }
 
 
@@ -100,13 +106,36 @@ body {
       margin-right: 20px;
       padding: 15px 0;
 }
-.main-nav-links li.active,
-.main-nav-links li:hover {
-      color: #DA552F;
-      border-bottom: 3px solid #DA552F;
+
+
+.main-nav-links li a {
+      text-decoration: none;
+}
+.main-nav-links li.active {
+      color: #1776F5;
+      border-bottom: 3px solid #1776F5;
 }
 
 
+#tech:hover {
+      color: #1776F5;
+      border-bottom: 3px solid #1776F5;
+}
+
+#games:hover {
+      color:#50B948;
+      border-bottom: 3px solid #50B948;
+}
+
+#collections:hover {
+      color: #CC55F6;
+      border-bottom: 3px solid #CC55F6;
+}
+
+#business:hover {
+      color:#FF0016;
+      border-bottom: 3px solid #FF0016;
+}
 
 .day-header {
       text-align: center;
@@ -126,9 +155,11 @@ body {
 
 .post {
       padding: 10px;
-      /*background: red;*/
+      height:60px;
+      width:100%;
 }
 .post:hover {
+      -webkit-transition:ease-in all 200ms;
       background: #EEE;
       -webkit-border-radius: 5px;
       border-radius: 5px;
@@ -136,12 +167,30 @@ body {
 .vote-wrap {
       font-size: 1.3rem;
       width: 60px;
+      height:100%;
       float: left;
       text-align: center;
+      color:#333;
+}
+
+.vote-wrap:hover { 
+      -webkit-transition:ease-in all 200ms;
+      font-size :1.495rem;
+      color:#1478ED;
 }
 .post-content {
       float: left;
 }
+
+.post-content a {
+      text-decoration: none;  
+}
+
+.post-content a :hover {
+      text-decoration: underline;
+       color: #BBB;
+}
+
 .post-title {
       color: #BBB;
       font-size: 2rem;
@@ -158,6 +207,7 @@ body {
 }
 .post-creator {
       -webkit-border-radius: 50%;
+      margin : auto;
       border-radius: 50%;
       width: 34px;
       height: 34px;
