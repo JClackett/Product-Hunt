@@ -231,13 +231,17 @@ a  {
       float: right;
 }
 
+.bio {
+  position: relative;
+}
+
 .box {
   position: absolute;
   margin-right: -200px;
   font-size: 1.5rem;
   color:#1478ED;
   margin-top: 45px;
-  right:320px;
+  right:165px;
   overflow: auto;
   height:275px;
   width:200px;
@@ -247,6 +251,7 @@ a  {
   display: none;
   background-color: white;
   cursor: default;
+  z-index: 1;
 }
 
 .post-creator-bio{
