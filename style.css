@@ -52,8 +52,8 @@ a  {
       background:#1776F5;
       -webkit-border-radius: 50%;
       border-radius: 50%;
-
 }
+
 .search {
         -webkit-appearance: none;
         -webkit-border-radius: 40px;
@@ -73,11 +73,12 @@ a  {
         float: right;
         margin-right: 20px;
         line-height: 30px;
+        -webkit-transition:ease-in all 300ms;
 }
 
 .search:focus {
       width: 600px;
-      -webkit-transition:ease-in all 500ms;
+      -webkit-transition:ease-in all 300ms;
 }
 
 ::-webkit-input-placeholder {
