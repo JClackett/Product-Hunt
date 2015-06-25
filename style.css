@@ -231,9 +231,9 @@ a  {
       float: right;
 }
 
-
 .box {
   position: absolute;
+  margin-right: -200px;
   font-size: 1.5rem;
   color:#1478ED;
   margin-top: 45px;
@@ -249,7 +249,7 @@ a  {
 }
 
 .post-creator-bio{
-  margin-top: 10px;
+  margin-top: 20px;
   height:100px;
   width:100px;
   border-radius: 50%;
