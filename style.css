@@ -176,7 +176,6 @@ a  {
       color: #AAA;
 }
 
-
 .post {
       padding: 10px;
       height:60px;
@@ -230,6 +229,50 @@ a  {
 .post-meta {
       width: 100px;
       float: right;
+}
+
+
+.box {
+  position: absolute;
+  font-size: 1.5rem;
+  color:#1478ED;
+  margin-top: 45px;
+  overflow: auto;
+  height:275px;
+  width:200px;
+  border: solid 1px #AAA;
+  border-radius: 5px;
+  text-align: center;
+  display: none;
+  background-color: white;
+  cursor: default;
+}
+
+.post-creator-bio{
+  margin-top: 10px;
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  cursor:pointer;
+}
+
+.bio:hover .box {
+  display:inline-block;
+}
+
+.follow {
+  background-color: #1478ED;
+  text-align: center;
+  width:75px;
+  height:30px;
+  line-height: 30px;
+  margin:auto;
+  border-radius: 8px;
+}
+
+.follow a {
+  text-decoration: none;
+  color:white;
 }
 .post-creator {
       -webkit-border-radius: 50%;
